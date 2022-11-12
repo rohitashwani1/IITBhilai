@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Profile"
+        android:id="@+id/rofile"/>
+    <item android:title="Add Post"
+        android:id="@+id/addost"/>
+    <item android:title="Feed"
+        android:id="@+id/feed"/>
+    <item android:title="All Users"
+        android:id="@+id/usr"/>
+    <item android:title="Mess menu Dio"
+        android:id="@+id/messd"/>
+    <item android:title="Mess menu Ena"
+        android:id="@+id/messe"/>
+    <item android:title="Calender"
+        android:id="@+id/cal"/>"
+    <item android:title="Lost and Found"
+        android:id="@+id/los"/>
+    <item android:title="TnP Cell Blogs"
+        android:id="@+id/tn"/>
+    <item android:title="Map"
+        android:id="@+id/ma"/>"
+    <item android:title="Logout"
+        android:id="@+id/Logout"/>"
+    <item android:title="About"
+        android:id="@+id/abo"/>"
+</menu>
