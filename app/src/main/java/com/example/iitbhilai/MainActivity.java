@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 transaction = getSupportFragmentManager().beginTransaction();
                 transaction.replace(R.id.container, new AddostFragment());
                 transaction.commit();
+                break;
             case R.id.feed:
                 transaction = getSupportFragmentManager().beginTransaction();
                 transaction.replace(R.id.container, new HomeFragment());
@@ -56,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 transaction = getSupportFragmentManager().beginTransaction();
                 transaction.replace(R.id.container, new SearchFragment());
                 transaction.commit();
+                break;
             case R.id.messd:
                 startActivity(new Intent(MainActivity.this,messdio.class));
                 break;
